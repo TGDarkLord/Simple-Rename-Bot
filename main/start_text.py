@@ -6,7 +6,7 @@ from config import ADMIN
 async def start(bot, msg, cb=True):   
     txt=f"<b><i>Hello 👋 {msg.from_user.mention},\n\nI Am Simple Renamer Bot With Permanent Thumbnail Support.\n\nMaintained By ✔️ <a href=https://t.me/hellobikash77>Bikash</a></b></i>"                                     
     button= [[
-        InlineKeyboardButton("🔗 Support", url="https://t.me/TechSupportChat")
+        InlineKeyboardButton("🔗 Support", url="https://t.me/TechSupportChat"),
         InlineKeyboardButton("🔔 Updates", url="https://t.me/Tech_Projects2021")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
